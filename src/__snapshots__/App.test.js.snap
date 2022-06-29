@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  width: 400px;
+  height: 400px;
+  text-align: left;
+}
+
+.c1 span {
+  display: inline-block;
+  width: 100px;
+  margin-right: 25px;
+}
+
+.c1 input {
+  width: 250px;
+}
+
+.c1 .good {
+  color: green;
+}
+
+.c1 .bad {
+  color: red;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <h1>
+      App Login
+    </h1>
+    <hr />
+    <span>
+      username
+    </span>
+    <input
+      aria-label="username"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <br />
+    <span>
+      password
+    </span>
+    <input
+      aria-label="password"
+      onChange={[Function]}
+      type="password"
+      value=""
+    />
+    <br />
+    <span>
+      strength
+    </span>
+    <span />
+    <br />
+    <hr />
+    <button
+      onClick={[Function]}
+    >
+      Login
+    </button>
+    <br />
+  </div>
+</div>
+`;
